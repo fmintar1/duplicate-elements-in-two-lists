@@ -11,13 +11,6 @@ import java.util.List;
  */
 public class DuplicateElements 
 {
-    public static void main( String[] args )
-    {
-        List<Integer> arrListOne = new ArrayList<>(Arrays.asList(1,3,6,9,11));
-        List<Integer> arrListTwo = new ArrayList<>(Arrays.asList(1,4,9,12));
-        System.out.println(numExistsInBothLists(arrListOne, arrListTwo));
-    }
-
     public static ArrayList<Integer> numExistsInBothLists(List<Integer> l1, List<Integer> l2) {
         ArrayList<Integer> result = new ArrayList<>();
         for (int i = 0; i < l1.size(); i++) {
